@@ -1,12 +1,14 @@
-import Nav from "../components/Nav";
+import SideBar from "../components/SideBar";
+import Map from "../components/Map";
+import style from "../styles/appPage.module.css";
 
 function AppPage() {
     return (
-        <div>
-            <Nav />
-            <p>AppPage</p>
+        <div className={style.appPage}>
+            <SideBar />
+            <Map />
         </div>
     );
 }
 
-export default AppPage
+export default AppPage;
